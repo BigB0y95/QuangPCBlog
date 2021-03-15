@@ -5,9 +5,21 @@ body{
 .ml_20{
     margin-left: 20px;
 }
+.ml_10{
+    margin-left: 10px;
+}
 
 .mt_t30{
     margin-top:  30px;
+}
+.mt_t20{
+    margin-top: 20px;
+}
+.mt_t10{
+    margin-top: 10px;
+}
+.mb_20{
+    margin-bottom: 20px;
 }
 
 .footer{
@@ -15,7 +27,6 @@ body{
     max-height: 108px;
     position: sticky;
     width: 100%;
-    bottom: 0;
     vertical-align: middle;
 }
 
@@ -37,6 +48,7 @@ body{
 }
 
 .textbox {
+    height: 100%;
     padding: 10px;
     margin: 0 0;
     background-color: white;
@@ -60,5 +72,14 @@ img {
     max-width: 100%;
     height: auto;
     border: 0px;
+}
+
+#banner_sub{
+    margin-top: 58px; 
+}
+
+.contact_footer img{
+    height: 30px !important;
+    width: 30px !important;
 }
 
