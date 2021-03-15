@@ -1,0 +1,64 @@
+
+body{
+    background-color:#f7f7f7;
+}
+.ml_20{
+    margin-left: 20px;
+}
+
+.mt_t30{
+    margin-top:  30px;
+}
+
+.footer{
+    min-height: 60px;
+    max-height: 108px;
+    position: sticky;
+    width: 100%;
+    bottom: 0;
+    vertical-align: middle;
+}
+
+.py-6 {
+    padding-bottom: 1.5rem!important;
+    padding-top: 1.5rem!important;
+}
+
+.text-muted {
+    color: #f8f9fa!important;
+}
+
+.contact_footer{
+    text-align: right;
+}
+
+.banner{
+    margin-top: 58px;
+}
+
+.textbox {
+    padding: 10px;
+    margin: 0 0;
+    background-color: white;
+    text-align: center;
+    transition: all ease .3s;
+}
+
+.textbox__image img {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0px;
+}
+
