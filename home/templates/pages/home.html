@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
 {% block title %}TrangChu{% endblock %}
+<!-- banner -->
 {% block banner %}
     <div id="carouselExampleIndicators" class="carousel slide mb-4 banner" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -29,10 +30,12 @@
         </a>
     </div>
 {% endblock %}
+<!-- article -->
 {% block article %}
+<article>
     <div class="container">
         <div class="row mb_10">
-            <div class="col">
+            <div class="title_header">
                 <h2 class="mb-0">Khóa Học</h2>
             </div>
         </div>
@@ -94,4 +97,5 @@
 				</div>
 			</div>
     </section>
+</article>
 {% endblock %}
