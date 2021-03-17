@@ -4,5 +4,6 @@ from .import views
 urlpatterns = {
     path('', views.index),
     path('python_page', views.python_page),
-    path('home', views.home)
+    path('home', views.home),
+    path('about', views.about)
 }

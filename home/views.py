@@ -7,3 +7,5 @@ def python_page(request):
     return render(request, 'pages/python_page.html')
 def home(request):
     return render(request, 'pages/home.html')
+def about(request):
+    return render(request, 'pages/about.html')
