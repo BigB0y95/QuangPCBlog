@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base_les.html" %}
 {% load static %}
 {% block title %}GioiThieu{% endblock %}
 <!-- banner -->
@@ -9,8 +9,11 @@
 {% endblock %}
 <!-- article -->
 {% block article %}
-<article class="mt_t30 col-md-8 article_area">
-    <div class="row mb_20">
+<article class="col-md-8 col-sm-12 article_area mt_t20">
+    <div class="gooogle_adv">
+        <img src="{% static 'image/google_adv/01.jpg' %}" alt="">
+    </div>
+    <div class="row mb_20 mt_t20">
         <div class="title_header">
             <h2 class="mb-0 bold">Python Cơ Bản</h2>
         </div>
@@ -35,7 +38,11 @@
 {% endblock %}
  <!-- aside -->
 {% block aside %}
-<aside class="col-md-4 aside_area">
-    <h1>this is aside</h1>
+<aside class="col-md-4 col-sm-12 aside_area mt_t20">
+    <div id="fb-root"></div>
+    <div class="fb-page" data-href="https://www.facebook.com/Developer-Vi%E1%BB%87t-Nam-109512397877362" 
+    data-tabs="timeline" data-width="" data-height="130px" data-small-header="false" data-adapt-container-width="true" 
+    data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Developer-Vi%E1%BB%87t-Nam-109512397877362" 
+    class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Developer-Vi%E1%BB%87t-Nam-109512397877362">Developer Việt Nam</a></blockquote></div>
 </aside>
 {% endblock %}

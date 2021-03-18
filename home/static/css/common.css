@@ -149,9 +149,20 @@ img {
     width: 100%;
     height: auto;
 }
+.content{
+    display: flex;
+}
 .content .article_area {
     float: left;
 }
 .content .aside_area{
     float: right;
+}
+.gooogle_adv{
+    width: 100%;
+    height: 100px;
+}
+.gooogle_adv img{
+    width: 100%;
+    height: 100px;
 }
