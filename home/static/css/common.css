@@ -8,7 +8,9 @@ body{
 .ml_10{
     margin-left: 10px;
 }
-
+.mt_t5{
+    margin-top: 5px;
+}
 .mt_t30{
     margin-top:  30px;
 }
@@ -24,6 +26,15 @@ body{
 .mr_20{
     margin-right: 20px;
 }
+.nomargin_bottom{
+    margin-bottom: 0px !important;
+}
+.bold{
+    font-weight: bold;
+}
+.blue{
+    color: blue !important;
+}
 .footer{
     min-height: 60px;
     max-height: 108px;
@@ -31,12 +42,10 @@ body{
     width: 100%;
     vertical-align: middle;
 }
-
 .py-6 {
     padding-bottom: 1.5rem!important;
     padding-top: 1.5rem!important;
 }
-
 .text-muted {
     color: #f8f9fa!important;
 }
@@ -44,15 +53,12 @@ body{
     width: calc(14.2857%);
     padding-right: 20px;
 }
-
 .contact_footer{
     text-align: right;
 }
-
 .banner{
     margin-top: 58px;
 }
-
 .textbox {
     height: 100%;
     padding: 10px;
@@ -61,29 +67,23 @@ body{
     text-align: center;
     transition: all ease .3s;
 }
-
 .textbox__image img {
     width: 100%;
 }
-
 img {
     max-width: 100%;
 }
-
 img {
     vertical-align: middle;
 }
-
 img {
     max-width: 100%;
     height: auto;
     border: 0px;
 }
-
 #banner_sub{
     margin-top: 58px; 
 }
-
 .contact_footer img{
     height: 30px !important;
     width: 30px !important;
@@ -127,10 +127,31 @@ img {
     background-color: #fff;
     border-top: 1px solid #eae7f5;
 }
-
 .item{
     padding: 0px 5px;
 }
 .form-inline button{
     margin-left: 10px;
+}
+.btn-rs{
+    background-color: #0288d1;
+    border-color: #0288d1;
+}
+.btn-rs:hover{
+    background-color: #027bd1;
+    border-color: #027bd1;
+    color: #eae7f5;
+}
+.text-while{
+    color: white;
+}
+.video_lesson video{
+    width: 100%;
+    height: auto;
+}
+.content .article_area {
+    float: left;
+}
+.content .aside_area{
+    float: right;
 }

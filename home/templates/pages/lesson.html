@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}GioiThieu{% endblock %}
+<!-- banner -->
+{% block banner %}
+    <div id="banner_sub">
+        <img class="d-block w-100" src="{% static 'image/banner/sub_banner/python.png' %}" alt="Khóa Học Python">
+    </div>
+{% endblock %}
+<!-- article -->
+{% block article %}
+<article class="mt_t30 col-md-8 article_area">
+    <div class="row mb_20">
+        <div class="title_header">
+            <h2 class="mb-0 bold">Python Cơ Bản</h2>
+        </div>
+    </div>
+    
+    <!-- section -->
+    <section class="md-section">
+        <div class="title_lesson">
+            <h4>Bài 1: Giới Thiệu</h4>
+        </div>
+        <div class="video_lesson">
+            <video style="background-color: black"></video>
+        </div>
+        <div class="content_lesson">
+            <p>đây là nội dung bài 4</p>
+        </div>
+        <div class="commnet">
+            <p>đây là vùng commnet</p>
+        </div>
+    </section>
+</article>
+{% endblock %}
+ <!-- aside -->
+{% block aside %}
+<aside class="col-md-4 aside_area">
+    <h1>this is aside</h1>
+</aside>
+{% endblock %}

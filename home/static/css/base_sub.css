@@ -2,6 +2,9 @@ body{
     height: 100%;
     color: antiquewhite;
 }
+.bg_trans{
+    background-color: transparent;
+}
 .cover-container {
     max-width: 42em;
 }
@@ -77,4 +80,25 @@ p {
 }
 .footer_btn{
     padding: 0 1rem;
+}
+.dropdown-item:hover{
+    color: green;
+}
+.form-signin {
+    width: 100%;
+    max-width: 365px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.form-register{
+    width: 100%;
+    max-width: 365px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.btn-rs{
+    background-color: #0288d1;
+    border-color: #0288d1;
 }
