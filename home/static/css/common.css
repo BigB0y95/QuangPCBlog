@@ -23,8 +23,14 @@ body{
 .mb_20{
     margin-bottom: 20px;
 }
+.mr_5{
+    margin-right: 5px;
+}
 .mr_20{
     margin-right: 20px;
+}
+.padding_5{
+    padding: 5px 5px;
 }
 .nomargin_bottom{
     margin-bottom: 0px !important;
@@ -35,9 +41,21 @@ body{
 .blue{
     color: blue !important;
 }
+.vivid_blue{
+    color: #09a7fd !important;
+}
+.strong_blue{
+    color: #0288d1;
+}
+.red{
+    color: red !important;
+}
+.title_header{
+    margin-left: 10px;
+}
 .footer{
     min-height: 60px;
-    max-height: 108px;
+    max-height: 117px;
     position: sticky;
     width: 100%;
     vertical-align: middle;
@@ -147,22 +165,56 @@ img {
 }
 .video_lesson video{
     width: 100%;
+    height: auto;   
+}
+video{
+    background-color: black;
+}
+.gooogle_adv_hori{
+    width: 100%;
+    height: 100px;
+}
+.gooogle_adv_hori img{
+    width: 100%;
+    height: 100px;
+}
+.gooogle_adv_verti{
+    width: 100%;
+    height: 300px;
+}
+.gooogle_adv_verti img{
+    width: 100%;
+    height: 300px;
+}
+.commnet .title_comment{
+    border-top: 2px solid #AFAFAF;
+}
+.lesson_more{
+    border: 1px solid black;
+    width: 100%;
+}
+.les_row{
+    display: -webkit-box;
+    flex-wrap: wrap;
+}
+.les_header{
+    width: 100%;
+    height: auto;
+    color: unset;
+    font-weight: bold; 
+    border-bottom: 1px solid black;
+}
+.lesson_more .les_content{
+    width: 100%;
+}
+.les_content .video_more{
+    width: 30%;
     height: auto;
 }
-.content{
-    display: flex;
-}
-.content .article_area {
-    float: left;
-}
-.content .aside_area{
-    float: right;
-}
-.gooogle_adv{
+.les_content .video_more video{
     width: 100%;
-    height: 100px;
+    height: auto;
 }
-.gooogle_adv img{
-    width: 100%;
-    height: 100px;
+.title_more{
+    width: 68%;
 }

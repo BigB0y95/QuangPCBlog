@@ -54,10 +54,10 @@
                                 <a class="nav-link" href="\DangNhap">Liên Hệ</a>
                             </li>                           
                         </ul>
-                    <form class="form-inline my-2 my-md-0">
-                        <a href="\DangKy"><button class="btn btn-sm btn-rs text-while">Đăng Ký</button></a>
-                        <button class="btn btn-sm btn-rs text-while" submit="\DangNhap">Đăng Nhập</button>
-                    </form>
+                        <form class="form-inline my-2 my-md-0">
+                            <a href="\DangKy"><button class="btn btn-sm btn-rs text-while">Đăng Ký</button></a>
+                            <button class="btn btn-sm btn-rs text-while" submit="\DangNhap">Đăng Nhập</button>
+                        </form>
                     </div>
                 </div>
             </nav>
@@ -65,11 +65,13 @@
             {% block banner %}{% endblock %}            
         </header>
         <div class="container content">
-        <!-- article -->
-        {% block article %}{% endblock %}
+            <div class="row">
+            <!-- article -->
+            {% block article %}{% endblock %}
 
-        <!-- aside -->
-        {% block aside %}{% endblock %}
+            <!-- aside -->
+            {% block aside %}{% endblock %}
+            </div>
         </div>
         <!-- footer -->
         <footer class="bg-dark bg-cover footer mt_t30">
